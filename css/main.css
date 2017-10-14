@@ -1,0 +1,486 @@
+.wrapper{
+	overflow: hidden;
+	font-family: 'Exo', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+[class*='col-']::first-child {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+h5{
+	color: #ff6d6d;
+	font-size: 16px;
+	letter-spacing: 3.2px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+p{
+	letter-spacing: 0.64px;
+	font-size: 16px;
+	color: #282828;
+	line-height: 26px;
+}
+
+header{
+	background: url(../img/bg-header.png);
+	min-height: 812px;
+	text-align: center;
+	color: #282828;
+
+}
+
+header h1{
+	font-size: 60px;
+	padding-top: 15%;
+}
+
+.play{
+	padding-top: 5%;
+}
+
+.btn-site{
+	margin-top: 5%;
+	background-color: #ff6d6d;
+	border-radius: 3px;
+	height: 52px;
+	width: 192px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 3.2px;
+	border: 0;
+}
+
+header p{
+	padding-top: 1%;
+	opacity: 0.6;
+	letter-spacing: 0.56px;
+}
+
+.design h5{
+	padding-top: 20%;
+}
+
+h1{
+	font-size: 40px;
+	letter-spacing: 1.6px;
+	color: #282828;
+}
+
+span{
+	color: #ff6d6d;
+}
+
+.design p{
+	padding-top: 5%;
+}
+
+.features{
+	min-height: 685px;
+	background-image: url(../img/bg-features.jpg);
+	background-size: cover;
+	text-align: center;
+	background-color: #f6f5f3;
+}
+
+.features h5{
+	padding-top: 13%;
+}
+
+.features .row img{
+	padding-top: 15%;
+	padding-bottom: 5%;
+}
+
+.features h4{
+	font-size: 22px;
+	letter-spacing: 0.88px;
+	padding-bottom: 3%;
+}
+
+.features p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	letter-spacing: 0.64px;
+	color: #282828;
+}
+
+.description{
+	min-height: 550px;
+	background-color: #fff;
+}
+
+.description h5{
+	padding-top: 20%;
+}
+
+.description p{
+	padding-top: 5%;
+}
+
+#mac{
+	margin-left: -105px;
+}
+
+.clients{
+	text-align: center;
+	min-height: 648px;
+	background-image: url(../img/bg-clients.png);
+	background-color: #000;
+}
+
+.clients h3{
+	color: #fff;
+	font-size: 22px;
+	letter-spacing: 0.88px;
+}
+
+.clients h5{
+	color: #ff6d6d;
+	font-size: 16px;
+	text-transform: none;
+	line-height: 49.97px;
+	letter-spacing: normal;
+}
+
+.clients p{
+	color: #fff;
+}
+
+.clients img{
+	padding-top: 20%;
+}
+
+.browser{
+	/*min-height: 757px;*/
+	background-color: #f6f5f3;
+	text-align: center;
+}
+
+.browser h5{
+	padding-top: 10%;
+}
+
+.browser h1{
+	padding-bottom: 5%;
+}
+
+.browser p{
+	padding-bottom: 10%;
+}
+
+.registration{
+	min-height: 470px;
+	background-color: #323969;
+	text-align: center;
+}
+
+.registration h5{
+	padding-top: 10%;
+}
+
+.registration h1{
+	color: #fff;
+}
+
+.input-reg{
+	width: 266px;
+	height: 51px;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	background-color: #f6f5f3;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-left: 10%;
+}
+
+.reg .col-md-3:nth-child(-n+3){
+	padding-top: 8%;
+}
+
+ .reg .btn-site{
+ 	width: 266px;
+ 	margin-top: 16px;
+ 	height: 51px;
+
+}
+.reg{
+	padding-bottom: 5%;
+}
+.reg p{
+	color: #fff;
+	font-size: 16px;
+	margin-top: 16%;
+}
+
+.reg p img{
+	float: left;
+}
+
+.singing p{
+	color: #f6f5f3;
+	font-size: 16px;
+	padding-bottom: 7%;
+}
+
+.singing span{
+	text-decoration: underline;
+	color: #f6f5f3;
+}
+
+footer{
+	min-height: 333px;
+	background-color: #fff;
+	background: url(../img/bg-footer.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.foot{
+	padding-top: 8%;
+}
+
+footer h2{
+	margin-top: 0;
+	font-size: 22px;
+	letter-spacing: 0.88px;
+	color: #282828;
+	margin-bottom: 25px;
+}
+footer p{
+	font-size: 14px;
+}
+
+.form-control{
+	border-radius: 3px;
+	border: 1px solid #4e4e5e;
+	background-color: #E0E0E0;
+	opacity: 0.4;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #000000;
+	height: 41px;
+}
+
+.btn-default{
+	background-color: #ff6d6d;
+	border-radius: 3px;
+	border: 1px solid #ff6d6d;
+	box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+	height: 41px;
+}
+
+.btn-default:hover{
+	background-color: #ff6d6d;
+}
+
+.input-group{
+	margin-bottom: 5%;
+}
+
+.social{
+	text-align: center;
+	padding-bottom: 5%
+}
+
+.social img{
+	padding-right: 10%;
+}
+
+ Large Devices, Wide Screens 
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	header{
+		background-size: 200%;
+		background-repeat: no-repeat;
+		min-height: 378px;
+	}
+	header h1{
+	font-size: 35px;
+	padding-top: 15%;
+}
+
+	header p{
+		padding-bottom: 5px;
+	}
+	.bg{
+		display: none;
+	}
+	.design h5{
+		padding-top: 5%;
+		font-size: 14px;
+	}
+	.design h1{
+		font-size: 20px;
+		letter-spacing: 1.6px;
+		color: #282828;
+	}
+
+	.design p{
+		font-size: 13px;
+		padding-bottom: 5%;
+	}
+
+	.features h5{
+		font-size: 14px;
+
+	}
+	.features h1{
+		font-size: 20px;
+	}
+	.features h4{
+		font-size: 20px;
+	}
+	.features p{
+		font-size: 13px;
+	}
+	.features{
+		background-size: 150%;
+		background-repeat: no-repeat;
+	}
+	.description h5{
+		font-size: 14px;
+		padding-top: 5%;
+	}
+	.description h1{
+		font-size: 20px;
+	}
+	.description p{
+		font-size: 13px;
+	}
+
+	#mac{
+		width: 100%;
+		height: 100%;
+		margin-left: -15px;
+	}
+
+	.clients h3{
+		font-size: 20px;
+	}
+
+	.clients h5{
+		font-size: 14px;
+	}
+
+	.clients p{
+		font-size: 13px;
+	}
+
+	.clients img{
+		padding-top: 5%;
+	}
+
+	.partner{
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+
+	.partner img{
+		width: 100%;
+		height: 100%;
+	}
+
+	#browser{
+		height: 100%;
+		width: 100%;
+	}
+
+	.browser h5{
+		font-size: 14px;
+	}
+
+	.browser h1{
+		font-size: 20px;
+	}
+
+	.browser p{
+		font-size: 13px;
+		padding-bottom: 5%;
+	}
+	
+	.registration h5{
+		font-size: 14px;
+	}
+
+	.registration h1{
+		font-size: 20px;
+	}
+
+	.input-reg {
+		font-size: 13px;
+		width: 200px;
+		height: 40px;
+		padding-left: 5%;
+	}
+	.reg p{
+		margin-top: 0;
+		font-size: 13px;
+	}
+	.reg p img{
+		float: none;
+		padding-right: 5%;
+	}
+
+	.reg .col-md-3:nth-child(-n+4){
+		padding-top: 8%;
+	}
+
+	 .reg .btn-site{
+	 	width: 200px;
+		height: 40px;
+	}
+
+	.singing p{
+	font-size: 13px;
+	}
+
+	footer{
+		background: transparent;
+		text-align: center;
+	}
+
+	footer h2{
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+
+	footer p{
+		font-size: 13px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+@media only screen and (min-width : 993px) {
+
+}
